@@ -1,0 +1,654 @@
+object Form10: TForm10
+  Left = 0
+  Top = 0
+  Caption = 'Form10'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Center
+    Size.Width = 350.000000000000000000
+    Size.Height = 350.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout2: TLayout
+      Align = Top
+      Size.Width = 350.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Layout3: TLayout
+        Align = Center
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 11
+        object Circle1: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation1: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line1: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line2: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout4: TLayout
+        Align = Center
+        RotationAngle = 30.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 10
+        object Circle2: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation2: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line3: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line4: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout5: TLayout
+        Align = Center
+        RotationAngle = 60.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 9
+        object Circle3: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation3: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line5: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line6: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout6: TLayout
+        Align = Center
+        RotationAngle = 90.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 8
+        object Circle4: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation4: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line7: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line8: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout7: TLayout
+        Align = Center
+        RotationAngle = 120.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 7
+        object Circle5: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation5: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line9: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line10: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout8: TLayout
+        Align = Center
+        RotationAngle = 150.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 6
+        object Circle6: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation6: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line11: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line12: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout9: TLayout
+        Align = Center
+        RotationAngle = 180.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 5
+        object Circle7: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation7: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line13: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line14: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout10: TLayout
+        Align = Center
+        RotationAngle = 210.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 4
+        object Circle8: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation8: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line15: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line16: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout11: TLayout
+        Align = Center
+        RotationAngle = 240.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 3
+        object Circle9: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation9: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line17: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line18: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout12: TLayout
+        Align = Center
+        RotationAngle = 270.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 2
+        object Circle10: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation10: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line19: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line20: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout13: TLayout
+        Align = Center
+        RotationAngle = 300.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 1
+        object Circle11: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation11: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line21: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line22: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object Layout14: TLayout
+        Align = Center
+        RotationAngle = 330.000000000000000000
+        RotationCenter.Y = 3.500000000000000000
+        TabOrder = 0
+        object Circle12: TCircle
+          Align = Center
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object FloatAnimation12: TFloatAnimation
+            Enabled = True
+            Duration = 1.000000000000000000
+            Inverse = True
+            Loop = True
+            PropertyName = 'RotationAngle'
+            StartValue = 0.000000000000000000
+            StopValue = 360.000000000000000000
+          end
+          object Line23: TLine
+            LineType = Top
+            Position.Y = 25.000000000000000000
+            Size.Width = 50.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Line24: TLine
+            LineType = Left
+            Position.X = 25.000000000000000000
+            Size.Width = 25.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+    end
+    object Layout15: TLayout
+      Align = Bottom
+      Position.Y = 300.000000000000000000
+      Size.Width = 350.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object Circle13: TCircle
+      Align = Center
+      Fill.Kind = None
+      Size.Width = 320.000000000000000000
+      Size.Height = 320.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFE0E0E0
+      Stroke.Thickness = 20.000000000000000000
+      object Circle14: TCircle
+        Align = Center
+        Fill.Kind = None
+        Size.Width = 280.000000000000000000
+        Size.Height = 280.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Circle15: TCircle
+        Align = Client
+        Fill.Kind = None
+        Size.Width = 320.000000000000000000
+        Size.Height = 320.000000000000000000
+        Size.PlatformDefault = False
+        object Layout16: TLayout
+          Align = Top
+          Size.Width = 320.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object RoundRect1: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect2: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 30.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect3: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 60.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect4: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 90.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect5: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 120.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect6: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 150.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect7: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 180.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect8: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 210.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect9: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 240.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect10: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 270.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect11: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 300.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object RoundRect12: TRoundRect
+            Align = HorzCenter
+            Position.X = 125.000000000000000000
+            RotationAngle = 330.000000000000000000
+            RotationCenter.Y = 6.400000095367432000
+            Size.Width = 70.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+    end
+    object FloatAnimation14: TFloatAnimation
+      Enabled = True
+      Duration = 7.000000000000000000
+      Loop = True
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StopValue = 360.000000000000000000
+    end
+  end
+  object Circle16: TCircle
+    Align = Center
+    Fill.Kind = None
+    Size.Width = 400.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFE0E0E0
+    Stroke.Thickness = 30.000000000000000000
+    object Circle17: TCircle
+      Align = Center
+      Fill.Kind = None
+      Size.Width = 340.000000000000000000
+      Size.Height = 340.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Circle18: TCircle
+      Align = Client
+      Fill.Kind = None
+      Size.Width = 400.000000000000000000
+      Size.Height = 400.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Circle19: TCircle
+    Align = Center
+    Size.Width = 260.000000000000000000
+    Size.Height = 260.000000000000000000
+    Size.PlatformDefault = False
+    object Circle20: TCircle
+      Align = Center
+      Size.Width = 200.000000000000000000
+      Size.Height = 200.000000000000000000
+      Size.PlatformDefault = False
+      object RoundRect13: TRoundRect
+        Align = Center
+        Size.Width = 200.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object FloatAnimation13: TFloatAnimation
+      Enabled = True
+      Duration = 5.000000000000000000
+      Loop = True
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StopValue = 360.000000000000000000
+    end
+  end
+  object Circle22: TCircle
+    Fill.Color = claFirebrick
+    Position.X = 256.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 10.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
